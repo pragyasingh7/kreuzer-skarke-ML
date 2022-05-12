@@ -1,5 +1,5 @@
 # kreuzer-skarke-invariant-ML
-The file v26 is taken from http://quark.itp.tuwien.ac.at/~kreuzer/V. It contains around 78,000 reflexive polytopes, each corresponding to a different Calabi-Yau 3-fold.
+The file v26.gz is taken from http://quark.itp.tuwien.ac.at/~kreuzer/V. It contains around 78,000 reflexive polytopes, each corresponding to a different Calabi-Yau 3-fold.
 Entries look like this:
 
 ```
