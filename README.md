@@ -10,7 +10,8 @@ Entries look like this:
    0   0   0   1   1   1  -1  -1   1   1   1  -1   0   1   0   1  -1   1  -2  -2   1   1   0  -2  -1  -2
 ```
 
-The numbers in the first line mean (taken from http://www2.macaulay2.com/Macaulay2/doc/Macaulay2-1.18/share/doc/Macaulay2/ReflexivePolytopesDB/html/___Kreuzer-__Skarke_spdescription_spheaders.html):         
+The numbers in the first line are explained in the following (taken from http://www2.macaulay2.com/Macaulay2/doc/Macaulay2-1.18/share/doc/Macaulay2/ReflexivePolytopesDB/html/___Kreuzer-__Skarke_spdescription_spheaders.html).
+It follows an explanation for the header `4 10  M:25 10 N:10 9 H:5,20 [-30]`. (That is: same format, different numbers.)
             
 '4 10': the first 2 numbers are the number of rows and columns of the matrix $A$            
             
@@ -21,3 +22,35 @@ The numbers in the first line mean (taken from http://www2.macaulay2.com/Macaula
 'H: 5,20 [-30]' are the Hodge numbers $h^{1,1}(X)$, $h^{1,2}(X)$, and the topological Euler characteristic of $X$, where $X$ is the Calabi-Yau variety described next            
 The last four lines stand for 26 vectors in 4-dimensional Euclidean space.
 Note that permuting columns and permuting rows of this matrix describes a polytope that encodes an isomorphic Calabi-Yau 3-fold.
+
+Remark:
+some entries are malformed, such as the following, which is copied verbatim from the raw data file.
+
+```26 4  M:28 26 N:30 26 H:24,22 [4]
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+0 -1 1 1 
+0 1 0 -1 
+0 -1 0 1 
+0 1 -1 -1 
+0 0 0 -1 
+0 0 -1 0 
+0 -1 0 0 
+0 0 1 1 
+-1 0 0 1 
+-1 -1 1 1 
+-1 1 -1 -1 
+-1 0 0 -1 
+-1 -1 0 1 
+-1 0 -1 0 
+-1 -1 0 0 
+-1 1 0 -1 
+-1 0 -1 -1 
+-1 1 0 0 
+-1 0 1 0 
+-1 1 -1 0 
+-1 -1 1 0 
+-1 0 1 1 
+```
