@@ -105,3 +105,6 @@ Epoch 19/20
 Epoch 20/20
 1091/1091 [==============================] - 1s 1ms/step - loss: 1.1878 - accuracy: 0.4887 - val_loss: 1.6420 - val_accuracy: 0.3525
 ```
+
+## Dirichlet projections
+The folder fundamental_domain_projections contains an implementation of an approximation of the Dirichlet fundamental domain projection, which is explained in section E.2 in the preprint. The important function is dirichlet_ord in file is discrete_gradient_ascent.py. Here, x is the input matrix, x0 the matrix specifying the order. You also need to specify a generating set for the symmetry group. Some of them have been implemented in the file generating_sets.
