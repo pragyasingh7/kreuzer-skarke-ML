@@ -61,7 +61,18 @@ some entries are malformed, such as the following, which is copied verbatim from
 ## How to run this repository
 
 1. Unpack the file v26.gz in the same folder
-2. Run train_demo.py. This should generate the following output:
+```
+gunzip v26.gz
+```
+2. Set up python path, ```Project_Dir``` is the absolute path for this project. 
+```
+export PYTHONPATH="$PYTHONPATH:<Project_DIR>"
+```
+3. Run train_demo.py.
+```commandline
+python learn/demo/train_demo.py
+```
+This should generate the following output:
 
 ```
 Epoch 1/20
